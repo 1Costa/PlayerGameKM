@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#64b5f6"
+    tools:context="com.example.konstantin.playergamekm.Activities.GameEmulatorActivity">
+
+<ScrollView
+
+    android:id="@+id/activity_game_emulator"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#64b5f6">
+
+        <!--<LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/playerOneTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/playerOneTextView"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="@string/playerTwoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/playerTwoTextView"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+        </LinearLayout>-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#64b5f6">
+
+            <TextView
+                android:id="@+id/gameEmulatorTitle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:text="Game Emulator"
+                android:textSize="24sp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Name 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/p1_NameTextView"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Name 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/p2_NameTextView"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+        </LinearLayout>-->
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_0"
+                android:id="@+id/p1_imageView" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/img_1"
+                android:id="@+id/p2_imageView"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Name 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/p1_NameTextView"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Name 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/p2_NameTextView"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="@string/playerOneWins"
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:id="@+id/buttonPlayerOneWins"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:textSize="24dp"
+                android:padding="20dp"
+                android:textColor="#ffffff"
+                android:layout_margin="10dp"
+                android:background="@drawable/roundedplaybutton"
+                android:textAlignment="center"/>
+
+            <Button
+                android:text="@string/playerTwoWins"
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:id="@+id/buttonPlayerTwoWins"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:textSize="24dp"
+                android:textColor="#ffffff"
+                android:padding="20dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/roundedplaybutton"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:id="@+id/buttonTie"
+                android:textAllCaps="false"
+                android:textSize="24dp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/roundedplaybutton"
+                android:text="@string/buttonTie"
+                android:textColor="#ffffff"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="@string/buttonQuitGame"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:id="@+id/buttonQuitGame"
+                android:background="@drawable/roundedquitbutton"
+                android:layout_gravity="right"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activity_main" type="layout">@layout/activity_main_twopane_port</item>
+    <item name="activity__tic_tac_toe" type="layout">@layout/activity_tic_tac_toe_twopane_port</item>
+</resources>

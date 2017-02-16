@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activity_main" type="layout">
+        @layout/activity_main_twopane_land
+    </item>
+    <item name="activity_tic_tac_toe" type="layout">
+        @layout/activity_tic_tac_toe_twopane_land
+    </item>
+</resources>

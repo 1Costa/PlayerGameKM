@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:id="@+id/activity_tic_tac_toe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:name="com.example.konstantin.playergamekm.Fragments.TicTacToeFragment"
+            android:id="@+id/tic_tac_toe_fragment"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!-- Demonstrates using a relative layout to create a form -->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp">
+
+    <TextView
+        android:text="Player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPlayer1"
+        android:layout_weight="1"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:text="VS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewVersus"
+        android:layout_weight="1"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:text="Player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPlayer2"
+        android:layout_weight="1"
+        android:textAlignment="center"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <Button android:id="@+id/one"
+
+        android:layout_height="200px"
+        android:layout_width="200px"
+
+        android:layout_marginLeft="5px"
+
+        android:text=" "
+        android:textSize="70px" />
+
+    <Button android:id="@+id/two"
+        android:layout_width="200px"
+        android:layout_height="200px"
+
+        android:layout_marginLeft="5px"
+        android:text=" "
+
+        android:textSize="70px" />
+
+    <Button android:id="@+id/three"
+        android:layout_width="200px"
+        android:layout_height="200px"
+
+        android:layout_marginLeft="5px"
+        android:text=" "
+
+        android:textSize="70px"/>
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <Button android:id="@+id/four"
+        android:layout_width="200px"
+        android:layout_height="200px"
+
+        android:layout_marginLeft="5px"
+
+        android:text=" "
+        android:textSize="70px" />
+
+    <Button android:id="@+id/five"
+        android:layout_width="200px"
+        android:layout_height="200px"
+
+        android:layout_marginLeft="5px"
+        android:text=" "
+        android:textSize="70px" />
+
+    <Button android:id="@+id/six"
+        android:layout_width="200px"
+        android:layout_height="200px"
+
+        android:layout_marginLeft="5px"
+        android:text=" "
+        android:textSize="70px" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <Button android:id="@+id/seven"
+        android:layout_width="200px"
+        android:layout_height="200px"
+
+        android:layout_marginLeft="5px"
+
+        android:text=" "
+        android:textSize="70px" />
+
+    <Button android:id="@+id/eight"
+        android:layout_weight="1"
+        android:layout_width="200px"
+        android:layout_height="200px"
+
+        android:layout_marginLeft="5px"
+        android:text=" "
+        android:textSize="70px" />
+
+    <Button android:id="@+id/nine"
+        android:layout_width="200px"
+        android:layout_height="200px"
+
+        android:layout_marginLeft="5px"
+        android:text=" "
+        android:textSize="70px" />
+
+</LinearLayout>
+
+<TextView android:id="@+id/dialogue"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Click a button to start"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="20px"
+    android:textSize="24sp"/>
+
+</LinearLayout>-->

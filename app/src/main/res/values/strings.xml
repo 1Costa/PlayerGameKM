@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PlayerGameKM</string>
+    <string name="buttonStartGame">Emulate Game</string>
+    <string name="buttonViewScoreboard">View Scoreboard</string>
+    <string name="buttonSelectPlayer">Select New Players</string>
+    <string name="buttonAddPlayer">Add Player</string>
+    <string name="playerOneTextView">Player One</string>
+    <string name="playerTwoTextView">Player Two</string>
+    <string name="playerTwoWins">Player Two Wins</string>
+    <string name="playerOneWins">Player One Wins</string>
+    <string name="buttonTie">It\'s a Tie</string>
+    <string name="buttonQuitGame">Quit</string>
+    <string name="p2_NameTextView">Player 2</string>
+    <string name="p1_NameTextView">Player 1</string>
+    <string name="recentlyPlayed">Most Recent Game</string>
+
+    <!-- Alert messages -->
+    <string name="null_player_name">You have to Provide Player\'s name</string>
+    <string name="user_not_added">An Error occurred. User not added</string>
+    <string name="aboutProject">Player Game Project</string>
+    <string name="selectPlayerTitle">Select Players</string>
+    <string name="scoreboardTable">Scoreboard View</string>
+    <string name="about">About</string>
+    <string name="buttonReset">Reset</string>
+    <string name="startGame">Start</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buttonTicTacToe">Play Tic Tac Toe</string>
+</resources>

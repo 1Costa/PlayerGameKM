@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item android:title="Select Players"
+        android:id="@+id/menu_select_players"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_agenda" />
+    <item android:title="Add Player"
+        android:id="@+id/menu_add_player"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_input_add" />
+    <item android:title="Delete Player"
+        android:id="@+id/menu_delete_player"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource"/>
+    <item android:id="@+id/menu_emulator"
+        android:title="Original Emulator Game"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+    <item android:id="@+id/menu_about"
+        android:title="About"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+</menu>

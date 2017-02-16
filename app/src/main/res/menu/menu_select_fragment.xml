@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--<item android:title="Delete Player"-->
+        <!--android:id="@+id/menu_delete_player"-->
+        <!--android:showAsAction="never"-->
+        <!--tools:ignore="AppCompatResource"/>-->
+    <!--<item android:id="@+id/menu_tictactoe"-->
+        <!--android:title="Play Tic Tac Toe Game"-->
+        <!--android:showAsAction="never"-->
+        <!--tools:ignore="AppCompatResource" />-->
+    <item android:id="@+id/menu_about"
+        android:title="About"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+</menu>

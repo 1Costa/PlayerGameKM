@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#64b5f6"
+    tools:context="com.example.konstantin.playergamekm.Activities.AboutActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Assignment 2."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/text11"
+                android:textAlignment="center"
+                android:textColor="#f6e6e6"
+                android:textSize="18dp" />
+
+            <TextView
+                android:text="@string/aboutProject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#f6e6e6"
+                android:textSize="24dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="Course: Software Development. Year 4."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/text1"
+                android:textAlignment="center"
+                android:textColor="#f6e6e6"
+                android:textSize="18dp" />
+            <TextView
+                android:text="Module: Mobile Application Development"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/text"
+                android:textAlignment="center"
+                android:textColor="#f6e6e6"
+                android:textSize="18dp" />
+
+            <TextView
+                android:text="Developed by: Konstantin Morozov"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView2"
+                android:textAlignment="center"
+                android:textColor="#f6e6e6"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="35dp">
+
+                    <TextView
+                        android:text="Specifications:
+                        \nWhen the Game Emulator activity starts, it should check to make sure players 1 and 2 have been selected. If a player has not been selected, this activity should display the Select Player activity for the unselected player
+                        \nIf the user clicks on a button on the Game Emulator activity, the app should display the Scoreboard activity.
+                        \nThe Scoreboard activity should sort the players by the number of wins in descending order"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView3"
+                        android:textSize="18sp"
+                        android:padding="5dp"
+                        android:textColor="#f6e6e6"
+                        android:layout_below="@+id/textView2" />
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

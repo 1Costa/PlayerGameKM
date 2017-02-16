@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.konstantin.playergamekm.Activities.TicTacToeActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#64b5f6">
+
+<ScrollView
+    android:id="@+id/activity_tic_tac_toe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:text="Player1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewPlayer1"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:textColor="#d4e157"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:text="VS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewVersus"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="#c62828"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:text="Player2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewPlayer2"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#2e7d32"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Click to Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewStart"
+            android:layout_weight="1"
+            android:textSize="22dp"
+            android:textColor="#c62828"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+
+
+
+<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button android:id="@+id/one"
+
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_weight="1"
+            android:text=" "
+            android:layout_margin="5dp"
+            android:background="@drawable/roundedplaybutton"
+            android:textSize="70dp" />
+
+        <Button android:id="@+id/two"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_weight="1"
+            android:text=" "
+            android:layout_margin="5dp"
+            android:background="@drawable/roundedplaybutton"
+            android:textSize="70dp" />
+
+        <Button android:id="@+id/three"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_weight="1"
+            android:text=" "
+            android:layout_margin="5dp"
+            android:background="@drawable/roundedplaybutton"
+            android:textSize="70dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button android:id="@+id/four"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_weight="1"
+            android:text=" "
+            android:layout_margin="5dp"
+            android:background="@drawable/roundedplaybutton"
+            android:textSize="70dp" />
+
+        <Button android:id="@+id/five"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_weight="1"
+            android:text=" "
+            android:layout_margin="5dp"
+            android:background="@drawable/roundedplaybutton"
+            android:textSize="70dp"/>
+
+        <Button android:id="@+id/six"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_weight="1"
+            android:text=" "
+            android:layout_margin="5dp"
+            android:background="@drawable/roundedplaybutton"
+            android:textSize="70dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button android:id="@+id/seven"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_weight="1"
+            android:text=" "
+            android:layout_margin="5dp"
+            android:background="@drawable/roundedplaybutton"
+            android:textSize="70dp" />
+
+        <Button android:id="@+id/eight"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_weight="1"
+            android:text=" "
+            android:layout_margin="5dp"
+            android:background="@drawable/roundedplaybutton"
+            android:textSize="70dp" />
+
+        <Button android:id="@+id/nine"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_weight="1"
+            android:text=" "
+            android:layout_margin="5dp"
+            android:background="@drawable/roundedplaybutton"
+            android:textSize="70dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:text="@string/buttonTicTacToe"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/buttonPlayTicTacToe"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/roundedplaybutton"
+            android:textAllCaps="false" />
+
+        <Button
+            android:text="@string/buttonViewScoreboard"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/buttonViewScoreboard"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/roundedplaybutton"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

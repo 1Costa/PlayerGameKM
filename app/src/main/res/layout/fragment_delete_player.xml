@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#64b5f6">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/deletePlayerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:text="Delete Players"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:textAlignment="center"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/playersListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
