@@ -519,6 +519,7 @@ public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
             public void onClick(DialogInterface dialog, int whichButton) {
                 //Toast.makeText(MainActivity.this, "GOT YOUR INPUT  FROM OK BUTTON", Toast.LENGTH_SHORT).show();
                 String inputResult = userInput.getText().toString();
+
                 insertPlayerIntoDatabase();
             }
         });
@@ -550,6 +551,10 @@ public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
                 user.setName(inputResult);
                 long rowID = db.insertGameUser(user);
                 if(rowID != -1) {
+                    if (currentOrientation == Configuration.ORIENTATION_LANDSCAPE) {
+                        // Landscape
+                        updateBoardView();
+                    }
                     Toast.makeText(getActivity(), "New Player " + inputResult +
                             " \nWas Added to Database", Toast.LENGTH_SHORT).show();
                 }else{
